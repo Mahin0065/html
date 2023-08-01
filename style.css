@@ -1,0 +1,89 @@
+body{
+  margin: 50px 50px 0 50px;
+  background-color: black;
+  color: white;
+  font-family: 'Jost', sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+
+}
+.main{
+    flex: 1;
+}
+
+.ab{
+    padding-left: 40%;
+    margin-bottom: 5rem;
+}
+.Naruto{
+    color: yellowgreen;
+}
+h1{
+    text-align: center;
+    font-size: 5rem;
+}
+.tile-image{
+    height: 200px;
+    float: left;
+    
+    
+}
+.right{
+    float: right;
+}
+.left{
+    float: left;
+}
+.first{
+    width: 45%;
+}
+.second{
+    width: 45%;
+}
+.ng{
+    color: rgb(194, 44, 18);
+}
+footer{
+    text-align: center;
+    background-color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+@media(max-width: 680px){
+    h1{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+    .png-img{
+        width: 100px;
+    }
+    .first{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+    .second{
+        width: 100%;
+        display: block;
+        margin-bottom: 30px;
+        text-align: justify;
+    }
+    .first  img{
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+    .second img{
+        margin-bottom: 10px;
+        width: 100%;
+        display: inline;
+        object-fit: cover;
+    }
+    
+    
+
+    
+}
